@@ -201,3 +201,78 @@ What is true about the following line: ```![Funny cat](http://cats.ru/funny.png 
 
 ---
 
+
+# Les blocs de code
+
+Les blocs de codes pré-formatés sont utlisés pour écrire sur la programmation ou surligner un code source. Plus que de simple pragraphe, les lignes de code d'un bloc de code sont litterallement interprétées.
+
+Voici un exemple :
+
+```
+Ceci est un bloc de code 
+```
+
+Afin de créer un bloc de code en Markdown, il suffit d'identer chaque ligne du bloc avec au moins 4 espaces ou une tabulation.
+
+Par exemple :
+
+```
+Ceci est un paragraphe normal:
+
+    Ceci est un bloc de code. 
+```
+
+Vous pouvez également créer un bloc de code separé avec:
+
+    ```
+
+### Bloc de code en ligne
+
+Les blocs de code en ligne peuvent être écrit en utilisant: `
+
+Par exemple:
+
+    Ceci est `un bloc de code en ligne`
+
+### La syntaxe de mise en avant 
+
+Vous pouvez definir le langage utlisé pour mettre en évidence la syntaxe en ajoutant un nom sur un mot clé ouvrant. Exemple : 
+
+    ```js
+    var a = {};
+    ```
+
+---
+
+# Tableaux
+
+
+Les tableaux ne font pas partie du coeur de la spec Markdown, mais ils font partie de GFM (GitHub Flavored Markdown) et Markdown Here les supporte.
+
+Voici un exemple de tableau avec le résultat dessous :
+
+    | Les tableaux  | Sont            | Cools |
+    | ------------- |:---------------:| -----:|
+    | col 3 est     | alignée à droite| $1600 |
+    | col 2 est     | centrée         |   $12 |
+    | les zèbres    | sont swag       |    $1 |
+
+
+| Les tableaux  | Sont            | Cools |
+| ------------- |:---------------:| -----:|
+| col 3 est     | alignée à droite| $1600 |
+| col 2 est     | centrée         |   $12 |
+| les zèbres    | sont swag       |    $1 |
+
+Les deux points peuvent être utilisés pour aligner les colonnes
+
+Les traits (|) sont optionnels et vous n'avez pas besoin de faire que le Markdown raw s'alligne parfaitement. Vous pouvez aussi utiliser de l'inline Markdown.
+
+Exemple:
+
+    Markdown | Assez | Moche
+    --- | --- | ---
+    *Apparait* | `toujours` | **bien**
+    1 | 2 | 3
+
+
