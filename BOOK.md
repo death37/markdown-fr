@@ -175,10 +175,10 @@ What are the correct informations from this link: ```[a link](http://google.fr "
 ![Alternative text][id]
 [id]: url/to/image  "Optional title"
 ```
-Comme vous avez dû le remarquer, les images en Markdown sont très semblables aux liens.  
-La différence est la suivante :
-* les crochets doivent être précédés par un point d'exclamation ;
-* ils peuvent contenir un texte alternatif, qui s'affiche quand l'image ne peut être chargée.
+As you may have noticed, the Markdown images are very similar to the links. 
+he difference is :
+* the brackets shall be preceded by an exclamation mark;
+* they may contain alternate text, which is displayed when the image can not be loaded.
 
 ---
 
@@ -202,77 +202,37 @@ What is true about the following line: ```![Funny cat](http://cats.ru/funny.png 
 ---
 
 
-# Les blocs de code
-
-Les blocs de codes pré-formatés sont utlisés pour écrire sur la programmation ou surligner un code source. Plus que de simple pragraphe, les lignes de code d'un bloc de code sont litterallement interprétées.
-
-Voici un exemple :
-
-```
-Ceci est un bloc de code 
-```
-
-Afin de créer un bloc de code en Markdown, il suffit d'identer chaque ligne du bloc avec au moins 4 espaces ou une tabulation.
-
-Par exemple :
-
-```
-Ceci est un paragraphe normal:
-
-    Ceci est un bloc de code. 
-```
-
-Vous pouvez également créer un bloc de code separé avec:
-
-    ```
-
-### Bloc de code en ligne
-
-Les blocs de code en ligne peuvent être écrit en utilisant: `
-
-Par exemple:
-
-    Ceci est `un bloc de code en ligne`
-
-### La syntaxe de mise en avant 
-
-Vous pouvez definir le langage utlisé pour mettre en évidence la syntaxe en ajoutant un nom sur un mot clé ouvrant. Exemple : 
-
-    ```js
-    var a = {};
-    ```
-
 ---
 
-# Tableaux
+# Tables
 
 
-Les tableaux ne font pas partie du coeur de la spec Markdown, mais ils font partie de GFM (GitHub Flavored Markdown) et Markdown Here les supporte.
+The tables are not part of the heart of the Markdown spec, but they are part of GFM (GitHub Flavored Markdown) and Markdown Here supports them.
 
-Voici un exemple de tableau avec le résultat dessous :
+Here is an example of a table with the result below:
 
-    | Les tableaux  | Sont            | Cools |
+    | The Tables  | Are            | Cool |
     | ------------- |:---------------:| -----:|
-    | col 3 est     | alignée à droite| $1600 |
-    | col 2 est     | centrée         |   $12 |
-    | les zèbres    | sont swag       |    $1 |
+    | col 3 is     | right aligned| $1600 |
+    | col 2 is     | on centre         |   $12 |
+    | Zebra    | are swag       |    $1 |
 
 
-| Les tableaux  | Sont            | Cools |
+| The tables  | are            | Cool |
 | ------------- |:---------------:| -----:|
-| col 3 est     | alignée à droite| $1600 |
-| col 2 est     | centrée         |   $12 |
-| les zèbres    | sont swag       |    $1 |
+| col 3 est     | right aligned| $1600 |
+| col 2 est     | on center         |   $12 |
+| Zebra    | are swag       |    $1 |
 
-Les deux points peuvent être utilisés pour aligner les colonnes
+Both points can be used to align columns
 
-Les traits (|) sont optionnels et vous n'avez pas besoin de faire que le Markdown raw s'alligne parfaitement. Vous pouvez aussi utiliser de l'inline Markdown.
+The traits (|) are optional and you do not need to make the Markdown raw fit perfectly. You can also use inline Markdown.
 
-Exemple:
+Example:
 
-    Markdown | Assez | Moche
+    Markdown | Very | Uggly
     --- | --- | ---
-    *Apparait* | `toujours` | **bien**
+    *Appears* | `always` | **good**
     1 | 2 | 3
 
 
