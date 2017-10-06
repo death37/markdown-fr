@@ -220,8 +220,8 @@ Here is an example of a table with the result below:
 
 | The tables  | are            | Cool |
 | ------------- |:---------------:| -----:|
-| col 3 est     | right aligned| $1600 |
-| col 2 est     | on center         |   $12 |
+| col 3 is     | right aligned| $1600 |
+| col 2 is     | on center         |   $12 |
 | Zebra    | are swag       |    $1 |
 
 Both points can be used to align columns
